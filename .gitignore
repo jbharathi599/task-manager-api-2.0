@@ -1,0 +1,37 @@
+# ===== Secrets: never commit these =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ===== Java / Maven (backend) =====
+target/
+*.class
+*.jar
+*.war
+hs_err_pid*
+
+# ===== Node / React (frontend) =====
+node_modules/
+dist/
+build/
+coverage/
+npm-debug.log*
+
+# ===== Editors and IDEs =====
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+.classpath
+.project
+.settings/
+
+# ===== Operating system files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+logs/
